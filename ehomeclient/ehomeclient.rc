@@ -1,0 +1,284 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\ehomeclient.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ehomeclient.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EHOMECLIENT_DIALOG DIALOGEX 0, 0, 522, 259
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ehomeclient"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,460,22,50,14
+    GROUPBOX        "办公区",IDC_STATIC,7,58,168,192
+    GROUPBOX        "视听室",IDC_STATIC,192,58,322,192
+    LTEXT           "筒灯",IDC_STATIC,209,84,15,8
+    LTEXT           "沙发射灯",IDC_STATIC,209,109,28,8
+    LTEXT           "电视射灯",IDC_STATIC,209,133,28,8
+    LTEXT           "iec照明",IDC_STATIC,27,84,23,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_1,78,80,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_1,103,80,20,14
+    LTEXT           "ON",IDC_STATIC_1,132,84,11,8
+    LTEXT           "日光灯组",IDC_STATIC,209,156,28,8
+    DEFPUSHBUTTON   "连接",IDC_BTN_CONNECT,237,22,50,14
+    LTEXT           "MSI单排照明",IDC_STATIC,27,106,40,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_2,78,102,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_2,103,102,20,14
+    LTEXT           "ON",IDC_STATIC_2,132,106,11,8
+    LTEXT           "MSI双排照明",IDC_STATIC,27,128,40,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_3,78,124,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_3,103,124,20,14
+    LTEXT           "ON",IDC_STATIC_3,132,128,11,8
+    LTEXT           "茶水区",IDC_STATIC,27,150,22,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_4,78,146,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_4,103,146,20,14
+    LTEXT           "ON",IDC_STATIC_4,132,150,11,8
+    LTEXT           "橱窗灯",IDC_STATIC,27,172,22,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_5,78,168,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_5,103,168,20,14
+    LTEXT           "ON",IDC_STATIC_5,132,172,11,8
+    LTEXT           "前台灯",IDC_STATIC,27,194,22,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_6,78,190,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_6,103,190,20,14
+    LTEXT           "ON",IDC_STATIC_6,132,194,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_7,258,80,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_7,283,80,20,14
+    LTEXT           "ON",IDC_STATIC_7,312,84,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_8,258,104,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_8,283,104,20,14
+    LTEXT           "ON",IDC_STATIC_8,312,108,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_9,258,130,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_9,283,130,20,14
+    LTEXT           "ON",IDC_STATIC_9,312,134,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_10,258,154,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_10,283,154,20,14
+    LTEXT           "ON",IDC_STATIC_10,312,158,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_11,258,177,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_11,283,177,20,14
+    LTEXT           "ON",IDC_STATIC_11,312,181,11,8
+    PUSHBUTTON      "Set",IDC_BTN_OPEN_12,283,200,20,14
+    LTEXT           "ON",IDC_STATIC_12,312,204,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_13,258,224,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_13,283,224,20,14
+    LTEXT           "ON",IDC_STATIC_13,312,228,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_14,409,80,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_14,434,80,20,14
+    LTEXT           "ON",IDC_STATIC_14,464,84,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_15,409,104,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_15,434,104,20,14
+    LTEXT           "ON",IDC_STATIC_15,464,108,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_16,409,130,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_16,434,130,20,14
+    LTEXT           "ON",IDC_STATIC_16,464,134,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_17,409,154,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_17,434,154,20,14
+    LTEXT           "ON",IDC_STATIC_17,464,158,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_18,409,177,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_18,434,177,20,14
+    LTEXT           "ON",IDC_STATIC_18,464,181,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_19,408,200,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_19,433,200,20,14
+    LTEXT           "ON",IDC_STATIC_19,463,204,11,8
+    PUSHBUTTON      "打开",IDC_BTN_OPEN_20,409,224,20,14
+    PUSHBUTTON      "关闭",IDC_BTN_CLOSE_20,434,224,20,14
+    LTEXT           "ON",IDC_STATIC_20,464,228,11,8
+    LTEXT           "帕灯开关",IDC_STATIC,209,180,28,8
+    LTEXT           "帕灯调光",IDC_STATIC,209,204,28,8
+    LTEXT           "激光灯",IDC_STATIC,209,229,22,8
+    LTEXT           "彩色灯",IDC_STATIC,369,82,22,8
+    LTEXT           "左帕灯",IDC_STATIC,369,107,22,8
+    LTEXT           "右帕灯",IDC_STATIC,369,131,22,8
+    LTEXT           "窗帘移动",IDC_STATIC,369,154,28,8
+    LTEXT           "窗帘停止",IDC_STATIC,367,178,28,8
+    LTEXT           "卷帘移动",IDC_STATIC,367,202,28,8
+    LTEXT           "卷帘停止",IDC_STATIC,367,227,28,8
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,82,16,10
+    CONTROL         "",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,104,16,10
+    CONTROL         "",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,126,16,10
+    CONTROL         "",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,148,16,10
+    CONTROL         "",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,170,16,10
+    CONTROL         "",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,149,192,16,10
+    CONTROL         "",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,85,16,10
+    CONTROL         "",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,108,16,10
+    CONTROL         "",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,131,16,10
+    CONTROL         "",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,154,16,10
+    CONTROL         "",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,177,16,10
+    CONTROL         "",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,200,16,10
+    CONTROL         "",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,331,223,16,10
+    CONTROL         "",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,84,16,10
+    CONTROL         "",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,108,16,10
+    CONTROL         "",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,134,16,10
+    CONTROL         "",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,157,16,10
+    CONTROL         "",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,180,16,10
+    CONTROL         "",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,202,16,10
+    CONTROL         "",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,484,225,16,10
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,350,63,1,184
+    DEFPUSHBUTTON   "批量打开",IDC_BTN_BATOPEN,306,23,41,14
+    DEFPUSHBUTTON   "批量关闭",IDC_BTN_BATCLOSE,353,23,41,14
+    EDITTEXT        IDC_EDIT1,250,201,28,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "通信设置",IDC_STATIC,7,7,287,40
+    LTEXT           "主机 IP",IDC_STATIC,27,26,23,8
+    CONTROL         "",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,60,22,100,15
+    LTEXT           "端口",IDC_STATIC,170,25,15,8
+    EDITTEXT        IDC_EDIT2,193,22,35,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "批量操作",IDC_STATIC,299,7,102,40
+    DEFPUSHBUTTON   "Get Json",IDC_BTN_GETJSON,409,23,41,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "ehomeclient.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "ehomeclient.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_EHOMECLIENT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 515
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 252
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\ehomeclient.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
