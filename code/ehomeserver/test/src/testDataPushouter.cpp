@@ -19,19 +19,6 @@ void CDataPushOutorTester::testSendUdpData(void)
 
     strcpy(szData, "a test");
     int ret = 0;
-
-    for (int i = 0; i < 10; i++) {
-        //ret = sendUdpData("192.168.1.169", 5678, 
-        //    szData, sizeof(szData));
-
-        ret = sendUdpData("192.168.1.255", 5678, 
-            szData, sizeof(szData));
-        
-        //sendUdpData("255.255.255.255", 5678, 
-        //    szData2, sizeof(szData2));
-    }
-
-    /*
     ret = sendUdpData("192.168.1.166", 1234, 
                 szData, sizeof(szData));
     if (ret)
@@ -59,7 +46,6 @@ void CDataPushOutorTester::testSendUdpData(void)
         printf("send data to %s failed\n", "255.255.255.255");
     else
         printf("send data to %s success\n", "255.255.255.255");
-        */
 
 }
 
@@ -99,7 +85,7 @@ void CDataPushOutorTester::test(void)
 {
     testSendUdpData();
 
-    //testBroadCastUdpData();
+    testBroadCastUdpData();
     //testPushOutDevData();
 }
 
