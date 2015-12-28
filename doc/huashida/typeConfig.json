@@ -1,0 +1,146 @@
+{
+  "dataArray": [
+    {
+      "id": 1,
+      "parent_id": 0,
+      "name": "灯",
+      "abstract": 1,
+      "childType": [
+        {
+          "id": 3,
+          "parend_id": 1,
+          "name": "RGB灯",
+          "abstract": 0,
+          "model": "sadfag",
+          "metadata": [
+            {
+              "id": 1,
+              "type_id": 3,
+              "addr_name": "Red",
+              "length": 10,
+              "order": 1
+            },
+            {
+              "id": 2,
+              "type_id": 3,
+              "addr_name": "Blue",
+              "length": 10,
+              "order": 2
+            }
+          ],
+          "execution": [
+            {
+              "id": 1,
+              "type_id": 3,
+              "name": "开灯",
+              "sendData": {
+                "KNX": [
+                  {
+                    "addr_name": "Red",
+                    "value": "0x01"
+                  },
+                  {
+                    "addr_name": "Blue",
+                    "value": "0x01"
+                  },
+                  {
+                    "addr_name": "Green",
+                    "value": "0x01"
+                  }
+                ],
+                "TCP": [],
+                "UDP": []
+              },
+              "order": 1
+            },
+            {
+              "id": 2,
+              "type_id": 3,
+              "name": "关灯",
+              "sendData": {
+                "KNX": [
+                  {
+                    "addr_name": "Red",
+                    "value": "0x00"
+                  },
+                  {
+                    "addr_name": "Blue",
+                    "value": "0x00"
+                  },
+                  {
+                    "addr_name": "Green",
+                    "value": "0x00"
+                  }
+                ],
+                "TCP": []
+              },
+              "order": 1,
+              "type": "KNX"
+            }
+          ],
+          "event": [
+            {
+              "id": 1,
+              "type_id": 3,
+              "name": "开灯事件",
+              "listenData": {
+                "KNX": [
+                  {
+                    "addr_name": "Red",
+                    "value": "0x01",
+                    "op": "eq"
+                  },
+                  {
+                    "addr_name": "Green",
+                    "value": "0x01",
+                    "op": "eq"
+                  },
+                  {
+                    "addr_name": "Blue",
+                    "value": "0x01",
+                    "op": "eq"
+                  }
+                ],
+                "TCP": []
+              },
+              "order": 1
+            },
+            {
+              "id": 2,
+              "type_id": 3,
+              "name": "关灯事件",
+              "listenData": {
+                "KNX": [
+                  {
+                    "addr_name": "Red",
+                    "value": "0x00",
+                    "op": "eq"
+                  },
+                  {
+                    "addr_name": "Green",
+                    "value": "0x00",
+                    "op": "eq"
+                  },
+                  {
+                    "addr_name": "Blue",
+                    "value": "0x00",
+                    "op": "eq"
+                  }
+                ],
+                "TCP": []
+              },
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "parent_id": 0,
+      "name": "冰箱",
+      "abstract": 1,
+      "childType": []
+    }
+  ]
+}

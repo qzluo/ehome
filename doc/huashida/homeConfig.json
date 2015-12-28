@@ -1,0 +1,40 @@
+{
+  "data": {
+    "home_id": 1,
+    "device_group": [
+      {
+        "id": 1,
+        "parend_id": 0,
+        "name": "主卧",
+        "home_id": 1,
+        "device": [
+          {
+            "id": 1,
+            "serial": "CS0231LKJ",
+            "type_id": 1,
+            "home_id": 1,
+            "group_id": 1,
+            "description": "RGB灯1",
+            "address": {
+              "KNX": [
+                {
+                  "addr_name": "Red",
+                  "addr_value": "0/0/1"
+                },
+                {
+                  "addr_name": "Green",
+                  "addr_value": "0/0/2"
+                },
+                {
+                  "addr_name": "Blue",
+                  "addr_value": "0/0/3"
+                }
+              ],
+              "TCP": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
